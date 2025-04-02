@@ -1,15 +1,16 @@
 # hkimjp/todo
 
-* github で公開しちゃば早いか。
-  README.md にその日のタスク、Unreleased のセクションに TODO を書く。
+github で公開しちゃえば早いか。
+
+README.md にその日のタスク、Unreleased のセクションに TODO を書く。
 
 ## Todo
 
-
-* request-map アプリを改良して、短期 DHCP ゾーンにいるかどうかを知らせる。
+* request-map アプリを改良し、短期 DHCP ゾーンにいるかどうかを知らせる。
 * inbox に応じて色をつける。
 * fail2ban-client-status-all
 * fail2ban-unbanip xxx.yyy.zzz.www
+
 
 ## 2025-04-02
 
@@ -17,6 +18,12 @@
 * created komura's account.
 * nsakai can not forward mails from cntl to 'hamilton'?
 * TODO アプリの作成 - github の利用でお茶をにごす。
+
+### nc.melt
+
+* email 設定
+* "opcache.memory_consumption" を "128" よりも高い値で適用することをおすすめしますの表示が消えた。何もしてないぞ？
+* パスキーでログイン
 
 ## 2025-04-01
 
