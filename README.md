@@ -12,6 +12,12 @@ README.md にその日のタスク、Unreleased セクションの代わりに T
 * LXD クライアントの使用可能メモリを増やす
 * nc: shared フォルダはどう使う？
 * sweep と同等品を mns サーバーに。
+* rsync-home.bb は rabbit, hp のどちらから実行すべきか？
+* rsync-home.bb は並列実行するべきか？
+* DHCP isc-dhcp-server
+* rainloop (eq でトライしたっけ？)
+* postfix
+* dovecot
 
 
 ## 2025-04-03
@@ -28,7 +34,7 @@ README.md にその日のタスク、Unreleased セクションの代わりに T
 * nsakai can not forward mails from 'cntl.kyutech' to 'hamilton'?
 * TODO アプリの作成 - github の利用でお茶をにごす。
 
-### nc.melt
+### NextCloud (nc.melt)
 
 * email 設定
 * nc.melt で mns メールを読む。
