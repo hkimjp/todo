@@ -7,10 +7,13 @@ README.md にその日のタスク、Unreleased のセクションに TODO を�
 ## Todo
 
 * request-map アプリを改良し、短期 DHCP ゾーンにいるかどうかを知らせる。
-* inbox に応じて色をつける。
+* Mail: inbox に応じて色をつける。
 * fail2ban-client-status-all
 * fail2ban-unbanip xxx.yyy.zzz.www
 
+## 2025-04-03
+
+* mkdir mails && mv resources/* mails/
 
 ## 2025-04-02
 
