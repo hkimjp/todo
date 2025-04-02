@@ -1,0 +1,292 @@
+再就職の木村です。
+教室サーバの移行をしなければいけません。
+メールサーバの設定に一抹の不安がありますが、そのほかの準備はできてます。
+先ほど、教室 mns@mns と情報セクション is@mns から自分のアドレスを外しました。
+このメールは gmail から。
+
+この機会にサーバのアカウントの整理をします。
+二つファイルがありますが、添付にせずテキストでコピペします。
+
+############################
+1. 新サーバに移行しないホームフォルダ
+
+左から、使用中ディスク容量（KB)、アカウント、移行予定にないものに x してます。
+修正あったら連絡してください。
+
+28737 _removed_        x
+1     agyeman          x
+1579  anagae           x
+1786  arai
+6     asami
+1     backup           x
+1041  career           x
+1     cho
+3351  deguchi
+2     deguchi2
+2     fujimori         x
+96    fujita
+5     fujiwara
+1     furukawa
+587   fusamae          x
+833   hanazawa
+4220  hanazawa-y
+1617  hira
+51    hirayama
+3072  hkim
+1     honda            x
+2743  i-inoue
+4     ikedat
+881   inada            x
+331   inohira
+381   inoue-okuyamalab
+1458  inouem
+1     isbfs
+1     iwata
+12149 jabee            x
+3     kai
+1585  kajihara         x
+1438  kakimoto         x
+27058 kamada           x
+1     kamimura
+349   katom            x
+13097 kawano
+501   kazuma
+1     kii              x
+6470  kishine          x
+1     kouenkai
+39584 maeda            x
+84    makihara
+1294  mito
+5725  mitoh
+1252  miuramo          x
+7337  mtanaka
+1     nagae
+1     nagano
+185   nakadou
+17433 nakao-m
+2     nakayama
+3     nameishi
+41    nisitani
+2978  noda
+702   nsakai
+42    odamasa
+2561  ohwa
+2173  okamoto          x
+782   okuma
+1     okuma3
+6786  okuzono
+875   ookado
+11192 oono             x
+291   paula
+5148  sakai            x
+497   senba            x
+1     shahera
+1     smbtst
+4     soeda
+6     sozo
+1     sun
+342   suzuki-t
+10066 swata
+50    takahara
+22    takenowaki
+1     takezawa
+38    tamura
+1     tokunaga
+12770 tsukinari        x
+2     tsuyoshi
+10    ubuntu
+13    uchida
+1     uchino           x
+639   wakasa
+1     wakizako         x
+1     yoshihiro
+1     ysuzuki
+
+#######################
+2、メールの別名とメールリスト
+
+pbl-office, pbl3-staff, pbl3-staff-all は削除でもいいでしょう。
+
+# 個人別名
+#
+# コロン(:)の左側は右側を宛先として配達する。
+# 右側に /dev/null とあるのはメールを受け取るが配達せずに捨てる。
+#
+root:  is@mns.kyutech.ac.jp
+MAILER-DAEMON: postmaster
+postmaster: root
+okuyama: /dev/null
+komori: /dev/null
+nakadouzono: nakadou
+uchino: uchino1015@gmail.com
+fujimori: emyfujimori@gmail.com
+fusamae: satoru.fusamae@gmail.com
+okado:  ookado
+oda:  odamasa
+hanazawa-y:  yhanazawa
+agyeman:    agyeman125@yahoo.com
+fujiwara:  fujiwara-t@jimu.kyutech.ac.jp
+kanemoto: /dev/null
+takemori: /dev/null
+mimuraf: /dev/null
+kimura:    hkim
+ikeda:    ikedat
+sakai.nobuo:  nsakai
+inoue:    sozo
+ikedat:  ikedat@yamaguchi-u.ac.jp
+kato:    katom
+mimura:    mimuraf
+nakao:    nakao-m
+nishitani:  nisitani
+watanabe:  swata
+nakamura:  kazuma
+ysuzuki:  ysuzuki@e-lab.kyutech.ac.jp
+sun:    sun@ele.kyutech.ac.jp
+takahara:  takahara@ise.kyutech.ac.jp
+take:    take@ele.kyutech.ac.jp
+honda:    honda@ele.kyutech.ac.jp
+wakizako:  wakizako.hitoshi650@mail.kyutech.jp
+cho:    cho@ele.kyutech.ac.jp
+iwata:    iwata@ele.kyutech.ac.jp
+
+# 擬似メールリスト。
+# コロンの左のアドレス宛をコロンの右側へ配達。
+# 空行で次の擬似メールリストの定義へ。
+
+jimu:
+ okuzono@mns.kyutech.ac.jp
+
+math:
+ ohwa,
+  hira,
+ noda,
+ suzuki-t,
+ fujita,
+ wakasa
+
+phys:
+ okuma,
+ mtanaka,
+ kamada,
+ nakao,
+ mitoh,
+ watanabe,
+ odamasa,
+ nakamura
+
+is:
+ tamura,
+ inouem,
+ inohira,
+ asami,
+ hanazawa
+
+mns: math, phys, is
+
+home: mns, jimu
+
+condmat:
+ deguchi@mns.kyutech.ac.jp,
+ fukuma@cse.kyutech.ac.jp,
+ horibe@post.matsc.kyutech.ac.jp,
+ horide.tomoya.e3@f.mail.nagoya-u.ac.jp,
+ horita.zenji.688@m.kyushu-u.ac.jp,
+ iikubo.satoshi.472@m.kyushu-u.ac.jp,
+ ishimaru@post.matsc.kyutech.ac.jp,
+ matsu@post.matsc.kyutech.ac.jp,
+ matuhira@elcs.kyutech.ac.jp,
+ mitoh@mns.kyutech.ac.jp,
+ miyazaki.koji.962@m.kyushu-u.ac.jp,
+ mtanaka@mns.kyutech.ac.jp,
+ odamasa@mns.kyutech.ac.jp,
+ otabe@cse.kyutech.ac.jp,
+ skawano@ele.kyutech.ac.jp,
+ swata@mns.kyutech.ac.jp,
+ tanaka@brain.kyutech.ac.jp,
+ tokunaga@post.matsc.kyutech.ac.jp,
+ seino.kaori920@mail.kyutech.jp,
+ okuma@mns.kyutech.ac.jp,
+ kazuma@mns.kyutech.ac.jp
+
+ise:
+ okado,
+ okado.hideaki279@mail.kyutech.jp,
+ sun,
+ take,
+ honda,
+ wakizako,
+ cho,
+ iwata,
+ nsakai,
+ hanazawa-y,
+ masui@ele.kyutech.ac.jp
+
+i-ENERON:
+ kawano.shoya432@mail.kyutech.jp,
+ kazuma@mns.kyutech.ac.jp,
+ kodama.takashi477@mail.kyutech.jp,  # add 2023-06-02
+ matuhira@elcs.kyutech.ac.jp,
+ miura.asuka307@mail.kyutech.jp,
+ murakami@life.kyutech.ac.jp,
+ nagamatsu@phys.kyutech.ac.jp, # add 2024-05-29
+ nakato@che.kyutech.ac.jp,
+ shen@pc.uec.ac.jp,
+ shyam@life.kyutech.ac.jp,
+ tinglima@life.kyutech.ac.jp,
+ tohno@che.kyutech.ac.jp,
+ watanabe-ko@ccr.kyutech.ac.jp, # add 2024-05-29
+ watanabe@ele.kyutech.ac.jp,
+ yabuki.tomohide556@mail.kyutech.jp,
+ yonezawa-k@ccr.kyutech.ac.jp
+
+i-ENERON-announce:
+ hayase@uec.ac.jp,
+ horide.tomoya.e3@f.mail.nagoya-u.ac.jp, #mod email 2024-05-29
+ iikubo.satoshi.472@m.kyushu-u.ac.jp,
+ kawano.shoya432@mail.kyutech.jp,
+ kazuma@mns.kyutech.ac.jp,
+ kodama.takashi477@mail.kyutech.jp,  # add 2023-06-02
+ matuhira@elcs.kyutech.ac.jp,
+ miura.asuka307@mail.kyutech.jp,
+ miyazaki.koji.962@m.kyushu-u.ac.jp, #mod email 2024-05-29
+ murakami@life.kyutech.ac.jp,
+ nagamatsu@phys.kyutech.ac.jp, # add 2024-05-29
+ nakato@che.kyutech.ac.jp,
+ shen@pc.uec.ac.jp,
+ shyam@life.kyutech.ac.jp,
+ tinglima@life.kyutech.ac.jp,
+ tohno@che.kyutech.ac.jp,
+ watanabe-ko@ccr.kyutech.ac.jp, # add 2024-05-29
+ watanabe@ele.kyutech.ac.jp,
+ yabuki.tomohide556@mail.kyutech.jp,
+ yonezawa-k@ccr.kyutech.ac.jp
+
+pbl-office:  nakao-m@mns.kyutech.ac.jp,
+   matsuda-m@jimu.kyutech.ac.jp
+
+pbl3-staff:
+ inohira@mns.kyutech.ac.jp,
+ honda@ele.kyutech.ac.jp,
+ wakasa@mns.kyutech.ac.jp,
+ sakai.nobuo@ise.kyutech.ac.jp,
+ take@ele.kyutech.ac.jp,
+ nakao-m@mns.kyutech.ac.jp,
+ hiroshi.kimura@melt.kyutech.ac.jp,
+ iwata@ele.kyutech.ac.jp,
+ asami@mns.kyutech.ac.jp,
+ hanazawa@mns.kyutech.ac.jp,
+ matsuda-m@jimu.kyutech.ac.jp
+
+pbl3-staff-all:
+ pbl3-staff,
+ okoba.takashi970@mail.kyutech.jp,
+ maeda.tohshi845@mail.kyutech.jp,
+ ueda.toru349@mail.kyutech.jp,
+ sakakura.kenji874@mail.kyutech.jp,
+ ohashi.naoki498@mail.kyutech.jp,
+ sumioka.atsuya287@mail.kyutech.jp,
+ matsumoto.nachi228@mail.kyutech.jp,
+ morimitsu.akito419@mail.kyutech.jp,
+ maeda.chihiro977@mail.kyutech.jp
+
+以上です。
