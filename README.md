@@ -14,6 +14,7 @@ README.md にその日のタスク、Unreleased のセクションに TODO を�
 ## 2025-04-03
 
 * mkdir mails && mv resources/* mails/
+* copy .gitignore from neil's app.
 
 ## 2025-04-02
 
