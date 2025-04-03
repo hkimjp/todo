@@ -10,14 +10,13 @@ README.md にその日のタスク、Unreleased セクションの代わりに T
 * fail2ban-client-status-all
 * fail2ban-unbanip xxx.yyy.zzz.www
 * LXD クライアントの使用可能メモリを増やす
-* nc: shared フォルダはどう使う？
+* NextCloud: shared フォルダはどう使う？
 * sweep と同等品を mns サーバーに。
-* rsync-home.bb は rabbit, hp のどちらから実行すべきか？
-* rsync-home.bb は並列実行するべきか？
 * DHCP isc-dhcp-server
 * rainloop (eq でトライしたっけ？)
 * postfix
 * dovecot
+* base64 デコード。Mac から出したメールのデコード用に。
 
 
 ## 2025-04-03
@@ -26,6 +25,11 @@ README.md にその日のタスク、Unreleased セクションの代わりに T
 * copy `.gitignore` from neil's app.
 * make the repository public again.
 * request-map 0.6.0. 短期 DHCP ゾーンにいたら知らせられるように。動作チェック未実施。
+* request-map 0.6.1. バグフィックス。動作チェック。
+* request-map 0.6.2.
+* C216 のルータを 150.69.84.216 に誘導。
+* rsync-home.bb は rabbit から、1GB/min 程度。
+
 
 
 ## 2025-04-02
