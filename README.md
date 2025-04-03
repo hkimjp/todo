@@ -34,7 +34,6 @@ README.md にその日のタスク、Unreleased セクションの代わりに T
 * created komura's account.
 * nsakai can not forward mails from 'cntl.kyutech' to 'hamilton'?
 * TODO アプリの作成 - github の利用でお茶をにごす。
-* 坂井さん: hamilton にメールを転送できない？
 
 ### NextCloud (nc.melt)
 
