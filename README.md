@@ -2,27 +2,43 @@
 
 github で公開しちゃえば早いか。
 
-README.md にその日のタスク、Unreleased のセクションに TODO を書く。
+README.md にその日のタスク、Unreleased セクションの代わりに Todo を書く。
 
 ## Todo
 
-* request-map アプリを改良し、短期 DHCP ゾーンにいるかどうかを知らせる。
-* inbox に応じて色をつける。
+* Mail: inbox に応じて色をつける。できないか。
 * fail2ban-client-status-all
 * fail2ban-unbanip xxx.yyy.zzz.www
+* LXD クライアントの使用可能メモリを増やす
+* nc: shared フォルダはどう使う？
+* sweep と同等品を mns サーバーに。
+* rsync-home.bb は rabbit, hp のどちらから実行すべきか？
+* rsync-home.bb は並列実行するべきか？
+* DHCP isc-dhcp-server
+* rainloop (eq でトライしたっけ？)
+* postfix
+* dovecot
 
+
+## 2025-04-03
+
+* `mkdir mails && mv resources/* mails/`
+* copy `.gitignore` from neil's app.
+* make the repository public again.
+* request-map 0.6.0. 短期 DHCP ゾーンにいたら知らせられるように。動作チェック未実施。
 
 ## 2025-04-02
 
 * initialized repository.
 * created komura's account.
-* nsakai can not forward mails from cntl to 'hamilton'?
+* nsakai can not forward mails from 'cntl.kyutech' to 'hamilton'?
 * TODO アプリの作成 - github の利用でお茶をにごす。
 
-### nc.melt
+### NextCloud (nc.melt)
 
 * email 設定
-* "opcache.memory_consumption" を "128" よりも高い値で適用することをおすすめしますの表示が消えた。何もしてないぞ？
+* nc.melt で mns メールを読む。
+* 「"opcache.memory_consumption" を "128" よりも高い値で適用することをおすすめします」 の表示が消えた。何もしてないぞ？
 * パスキーでログイン
 
 ## 2025-04-01
