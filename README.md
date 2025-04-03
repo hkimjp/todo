@@ -27,12 +27,14 @@ README.md にその日のタスク、Unreleased セクションの代わりに T
 * make the repository public again.
 * request-map 0.6.0. 短期 DHCP ゾーンにいたら知らせられるように。動作チェック未実施。
 
+
 ## 2025-04-02
 
 * initialized repository.
 * created komura's account.
 * nsakai can not forward mails from 'cntl.kyutech' to 'hamilton'?
 * TODO アプリの作成 - github の利用でお茶をにごす。
+* 坂井さん: hamilton にメールを転送できない？
 
 ### NextCloud (nc.melt)
 
