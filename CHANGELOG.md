@@ -1,6 +1,10 @@
 ## Unreleased
 
 
+## 0.3.0-SNAPSHOT
+
+* (re)try vivaldi.
+
 ## 0.2.1 (2025-04-02)
 
 * merge develop branch.

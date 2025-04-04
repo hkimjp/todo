@@ -1,23 +1,25 @@
 # hkimjp/todo
 
-github で公開しちゃえば早いか。
-
-README.md にその日のタスク、Unreleased セクションの代わりに Todo を書く。
-
 ## Todo
 
-* Mail: inbox に応じて色をつける。できないか。
 * fail2ban-client-status-all
 * fail2ban-unbanip xxx.yyy.zzz.www
 * LXD クライアントの使用可能メモリを増やす
 * NextCloud: shared フォルダはどう使う？
 * sweep と同等品を mns サーバーに。
 * DHCP isc-dhcp-server
-* rainloop (eq でトライしたっけ？)
+* rainloop (eq でトライした)
 * postfix
 * dovecot
-* base64 デコード。Mac から出したメールのデコード用に。
+* base64 デコード。Mac から出したメールをデコード専用スクリプトを作る。
+* rabbit:/home/* の転送練習。
+* (refer-clojure :exclude [read-string])
 
+
+## 2025-04-04
+
+* request-map 0.7.0 - アクセスログをとる。IPから推測されるロケーションを表示する。
+  KIT-IA とか IB とかを区別してない。
 
 ## 2025-04-03
 
