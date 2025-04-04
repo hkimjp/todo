@@ -29,8 +29,8 @@ README.md にその日のタスク、Unreleased セクションの代わりに T
 * request-map 0.6.2.
 * C216 のルータを 150.69.84.216 に誘導。
 * rsync-home.bb は rabbit から、1GB/min 程度。
-
-
+* request-map 0.6.3: login by default middleware.
+* request-map 0.6.4: a bug in 0.6.3.
 
 ## 2025-04-02
 
