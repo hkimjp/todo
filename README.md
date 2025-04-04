@@ -12,9 +12,12 @@
 * postfix
 * dovecot
 * base64 デコード。Mac から出したメールをデコード専用スクリプトを作る。
-* rabbit:/home/* の転送練習。
+
 * (refer-clojure :exclude [read-string])
 
+## 2025-04-05
+
+* rabbit:/home/* の転送練習。予想では1時間。
 
 ## 2025-04-04
 
