@@ -19,10 +19,14 @@
 
 * ip.melt に favicon.ico
 * babashka で telemere のライブラリエラー。大人しく timbre すれば問題ない。
+* rsync-homes.bb - 2 度目は 3 分くらいで完了した。
+
+    /dev/nvme0n1p2  468G   86G  358G  20% /
+
 
 ### rabbit:/home/* の転送練習。
 
-* rsync-homes.bb 予想では実行に 1 時間。-> 1h35mn.
+* rsync-homes.bb - 予想では実行に 1h。-> 1h35mn.
 
 
 ## 2025-04-04
