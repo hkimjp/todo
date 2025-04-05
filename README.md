@@ -12,17 +12,23 @@
 * postfix
 * dovecot
 * base64 デコード。Mac から出したメールをデコード専用スクリプトを作る。
+* (refer-clojure :exclude [read-string]) はどこへ書く？
 
-* (refer-clojure :exclude [read-string])
 
 ## 2025-04-05
 
-* rabbit:/home/* の転送練習。予想では1時間。
+* ip.melt に favicon.ico
+* babashka で telemere のライブラリエラー。大人しく timbre すれば問題ない。
+
+### rabbit:/home/* の転送練習。
+
+* rsync-homes.bb 予想では実行に 1 時間。-> 1h35mn.
+
 
 ## 2025-04-04
 
 * request-map 0.7.0 - アクセスログをとる。IPから推測されるロケーションを表示する。
-  KIT-IA とか IB とかを区別してない。
+* **todo** KIT-IA, KIT-IB の表示。
 
 ## 2025-04-03
 
