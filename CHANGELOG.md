@@ -1,7 +1,7 @@
 ## Unreleased
 
 
-## 0.4.0-SNAPSHOT
+## 0.4.0 (2025-04-06)
 
 * ufw
 * DHCP
