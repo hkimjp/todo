@@ -10,7 +10,3 @@
   "I don't do a whole lot ... yet."
   [& args]
   (greet {:name (first args)}))
-
-
-
-{:a 1 :b 2 :c 3}

@@ -1,6 +1,13 @@
 ## Unreleased
 
 
+## 0.4.0 (2025-04-06)
+
+* ufw
+* DHCP
+* BIND
+* LDAP
+
 ## 0.3.0 (2025-04-05)
 
 * (re)try vivaldi.
