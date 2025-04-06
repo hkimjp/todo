@@ -5,15 +5,39 @@
 * fail2ban-client-status-all
 * fail2ban-unbanip xxx.yyy.zzz.www
 * LXD クライアントの使用可能メモリを増やす
-* NextCloud: shared フォルダはどう使う？
-* sweep と同等品を mns サーバーに。
-* DHCP isc-dhcp-server
-* rainloop (eq でトライした)
+* NextCloud: shared フォルダの使い方。
 * postfix
 * dovecot
-* base64 デコード。Mac から出したメールをデコード専用スクリプトを作る。
-* (refer-clojure :exclude [read-string]) はどこへ書く？
+* rainloop
+* 踏み台 ssh が 1/2 の割合で失敗する理由。KYUTECH か。VPN もしばし途中でキレちゃうぞ。
+  rsa キーを有効にするとこの現象は消える。なぜ？
+* dhcp15 を固定 IP に。
+* dhcp29 を 150.69.84.221 に固定する。
+* raspberry (bind) を収容する。あるいは逆に DHCP と LDAP を吐き出す。
 
+
+## 2025-04-06
+
+* ufw ok raspberry
+* sweep を rabbit にインストール。
+* dhcp15.mns:/usr/local/bin/remove-unused-bridges.sh
+* dhcp15.mns: start dhcp server
+* copy cony.mns:/var/lib/dhcp to dhcp15.mns:/var/lib/dhcp
+* copy cony.mns:/etc/dhcp to dhcp15.mns:/etc/dhcp
+* cony.mns: stop dhcp server
+* RSA 鍵と ED25519 鍵の両方がある PC から ssh-copy-id すると ED25519 鍵がコピーされるが、
+  ssh の認証は RSA 鍵でおこなわれる。何かオプションがありそう。
+* komura さんのアカウントを新サーバーにコピー。ldif で。
+
+    # systemctl stop slapd
+    # slapadd -l komura.ldif
+    # systemctl start slapd
+    $ id komura
+    uid=10043(komura) gid=10001(users) groups=10001(users)
+
+* base64 デコード。Mac から出したメールをデコード専用スクリプトを作る。
+  => ヘッダを外し /opt/homebrew/opt/coreutils/libexec/gnubin/base64　でよい。
+  ~/bin/base64 は改行の扱いができてない。
 
 ## 2025-04-05
 
