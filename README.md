@@ -8,18 +8,32 @@
 * NextCloud: shared フォルダの使い方。
 * postfix, dovecot のコンフィグをコピーするか。これが最も問題少ないか。
 * rainloop は apache->nginx のため、ひと踏ん張り必要。
-* 踏み台 ssh が 1/2 の割合で失敗する理由。KYUTECH か。VPN もしばし途中でキレちゃうぞ。
+* 踏み台 ssh が 1/2 の割合で失敗する理由。VPN もしばし途中で切れちゃうぞ。大学ネットが怪しい。
   rsa キーを有効にするとこの現象は消える。なぜ？
 * dhcp15 を固定 IP に。
 * dhcp29 の IP を固定する。cony の代わりだから 150.69.84.221.
 * raspberry (bind) を収容する。あるいは逆に DHCP と LDAP を吐き出す。
 * github.com/hkim0331/ 以下のプロジェクトの .git/config を修正するスクリプト。
+* github.com/hkim0331/<project>/.git/config 中の github.com を github-hkim0331 に書き換える。
 
-## 2025-04-07-SNAPSHOT
+```
+  for i in $(ls */.git/config); do
+    grep github.com $i ; sed -i 's/github.com/github-hkim0331/' $i
+  done
+```
+* iPhone からの ICMP too large
+
+
+## 2025-04-08
+
+
+## 2025-04-07
 
 * dhcp15 ufw.
 * apt install postfix dovecot-imapd dovecot-pop3d
-* 授業準備: projects/l22/.git/config を書き換えた。
+* 授業準備 -  projects/l22/.git/config を書き換えた。
+* updated request-map(ip) - added KIT-IA and KIT-IB.
+* 授業準備 - L22.
 
 ## 2025-04-06
 
@@ -54,11 +68,9 @@
 
     /dev/nvme0n1p2  468G   86G  358G  20% /
 
-
 ### rabbit:/home/* の転送練習。
 
 * rsync-homes.bb - 予想では実行に 1h。-> 1h35mn.
-
 
 ## 2025-04-04
 
