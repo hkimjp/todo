@@ -13,12 +13,13 @@
 * dhcp15 を固定 IP に。
 * dhcp29 の IP を固定する。cony の代わりだから 150.69.84.221.
 * raspberry (bind) を収容する。あるいは逆に DHCP と LDAP を吐き出す。
-
+* github.com/hkim0331/ 以下のプロジェクトの .git/config を修正するスクリプト。
 
 ## 2025-04-07-SNAPSHOT
 
 * dhcp15 ufw.
 * apt install postfix dovecot-imapd dovecot-pop3d
+* 授業準備: projects/l22/.git/config を書き換えた。
 
 ## 2025-04-06
 
