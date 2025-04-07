@@ -13,16 +13,22 @@
 * dhcp15 を固定 IP に。
 * dhcp29 の IP を固定する。cony の代わりだから 150.69.84.221.
 * raspberry (bind) を収容する。あるいは逆に DHCP と LDAP を吐き出す。
-* github.com/hkim0331/project/.git/config 中の github.com を github-hkim0331 に書き換える。
+* github.com/hkim0331/<project>/.git/config 中の github.com を github-hkim0331 に書き換える。
 
+```
+  for i in $(ls */.git/config); do
+    grep github.com $i ; sed -i 's/github.com/github-hkim0331/' $i
+  done
+```
 
 ## 2025-04-08
+
 
 ## 2025-04-07
 
 * dhcp15 ufw.
 * apt install postfix dovecot-imapd dovecot-pop3d
-* updated request-map(ip) - KIT-IA and KIT-IB.
+* updated request-map(ip) - added KIT-IA and KIT-IB.
 * 授業準備(L22)
 
 ## 2025-04-06
@@ -58,11 +64,9 @@
 
     /dev/nvme0n1p2  468G   86G  358G  20% /
 
-
 ### rabbit:/home/* の転送練習。
 
 * rsync-homes.bb - 予想では実行に 1h。-> 1h35mn.
-
 
 ## 2025-04-04
 
