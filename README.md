@@ -15,10 +15,11 @@
 * raspberry (bind) を収容する。あるいは逆に DHCP と LDAP を吐き出す。
 
 
-## 2025-04-07-SNAPSHOT
+## 2025-04-07
 
 * dhcp15 ufw.
 * apt install postfix dovecot-imapd dovecot-pop3d
+* updated request-map(ip) - KIT-IA and KIT-IB.
 
 ## 2025-04-06
 
