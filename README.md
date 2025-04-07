@@ -6,19 +6,23 @@
 * fail2ban-unbanip xxx.yyy.zzz.www
 * LXD クライアントの使用可能メモリを増やす
 * NextCloud: shared フォルダの使い方。
-* postfix
-* dovecot
-* rainloop
+* postfix, dovecot のコンフィグをコピーするか。これが最も問題少ないか。
+* rainloop は apache->nginx のため、ひと踏ん張り必要。
 * 踏み台 ssh が 1/2 の割合で失敗する理由。KYUTECH か。VPN もしばし途中でキレちゃうぞ。
   rsa キーを有効にするとこの現象は消える。なぜ？
 * dhcp15 を固定 IP に。
-* dhcp29 を 150.69.84.221 に固定する。
+* dhcp29 の IP を固定する。cony の代わりだから 150.69.84.221.
 * raspberry (bind) を収容する。あるいは逆に DHCP と LDAP を吐き出す。
 
 
+## 2025-04-07-SNAPSHOT
+
+* dhcp15 ufw.
+* apt install postfix dovecot-imapd dovecot-pop3d
+
 ## 2025-04-06
 
-* ufw ok raspberry
+* raspberry ufw ok.
 * sweep を rabbit にインストール。
 * dhcp15.mns:/usr/local/bin/remove-unused-bridges.sh
 * dhcp15.mns: start dhcp server
@@ -29,11 +33,13 @@
   ssh の認証は RSA 鍵でおこなわれる。何かオプションがありそう。
 * komura さんのアカウントを新サーバーにコピー。ldif で。
 
+```
     # systemctl stop slapd
     # slapadd -l komura.ldif
     # systemctl start slapd
     $ id komura
     uid=10043(komura) gid=10001(users) groups=10001(users)
+```
 
 * base64 デコード。Mac から出したメールをデコード専用スクリプトを作る。
   => ヘッダを外し /opt/homebrew/opt/coreutils/libexec/gnubin/base64　でよい。
