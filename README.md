@@ -20,6 +20,7 @@
 
 ## 2025-04-08
 
+* typing-ex 4.31.0. 一旦バージョン番号に v をつけたら、それを続けないとどれが新しいか分かりにくくなるか。
 * cntl のメールトラブル - ブラックリスト入りの sender をそのまま .forward に乗せて来て、
   ブラックリストにはない cntl のメールサーバが mns の fail2ban に捕まった？
 * fail2ban script - fail2ban-client banned, faileban-client unban ip ... があり、
