@@ -2,8 +2,6 @@
 
 ## Todo
 
-* fail2ban-client-status-all
-* fail2ban-unbanip xxx.yyy.zzz.www
 * LXD クライアントの使用可能メモリを増やす
 * NextCloud: shared フォルダの使い方。
 * postfix, dovecot のコンフィグをコピーするか。これが最も問題少ないか。
@@ -13,12 +11,15 @@
 * dhcp15 を固定 IP に。
 * dhcp29 の IP を固定する。cony の代わりだから 150.69.84.221.
 * raspberry (bind) を収容する。あるいは逆に DHCP と LDAP を吐き出す。
-* github.com/hkim0331/ 以下のプロジェクトの .git/config を修正するスクリプト。
 * iPhone からの ICMP too large
+* 授業準備。
 
 
 ## 2025-04-08
 
+* fail2ban script - fail2ban-client banned, faileban-client unban ip ... があり、
+  それでじゅうぶん対応できそう。そんなコマンド、あった？
+* ip.melt - ぞのさんの調査を反映させた。IA, IB のレンジ。
 * github.com/hkim0331/<project>/.git/config 中の github.com を github-hkim0331 に書き換える。
 
 ```
