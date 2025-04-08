@@ -14,18 +14,26 @@
 * dhcp29 の IP を固定する。cony の代わりだから 150.69.84.221.
 * raspberry (bind) を収容する。あるいは逆に DHCP と LDAP を吐き出す。
 * github.com/hkim0331/ 以下のプロジェクトの .git/config を修正するスクリプト。
-* github.com/hkim0331/<project>/.git/config 中の github.com を github-hkim0331 に書き換える。
-
-```
-  for i in $(ls */.git/config); do
-    grep github.com $i ; sed -i 's/github.com/github-hkim0331/' $i
-  done
-```
 * iPhone からの ICMP too large
 
 
 ## 2025-04-08
 
+* github.com/hkim0331/<project>/.git/config 中の github.com を github-hkim0331 に書き換える。
+
+```
+for i in $(ls */.git/config); do
+  grep github.com $i ; sed -i 's/github.com/github-hkim0331/' $i
+done
+```
+
+* stopped/disabled isc-dhcp-server6
+
+```
+root@hp# systemctl stop isc-dhcp-server6.service
+root@hp# systemctl disable isc-dhcp-server6.service
+
+```
 
 ## 2025-04-07
 
