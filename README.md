@@ -2,23 +2,47 @@
 
 ## Todo
 
-* fail2ban-client-status-all
-* fail2ban-unbanip xxx.yyy.zzz.www
 * LXD クライアントの使用可能メモリを増やす
 * NextCloud: shared フォルダの使い方。
 * postfix, dovecot のコンフィグをコピーするか。これが最も問題少ないか。
 * rainloop は apache->nginx のため、ひと踏ん張り必要。
-* 踏み台 ssh が 1/2 の割合で失敗する理由。KYUTECH か。VPN もしばし途中でキレちゃうぞ。
+* 踏み台 ssh が 1/2 の割合で失敗する理由。VPN もしばし途中で切れちゃうぞ。大学ネットが怪しい。
   rsa キーを有効にするとこの現象は消える。なぜ？
 * dhcp15 を固定 IP に。
 * dhcp29 の IP を固定する。cony の代わりだから 150.69.84.221.
 * raspberry (bind) を収容する。あるいは逆に DHCP と LDAP を吐き出す。
+* iPhone からの ICMP too large
+* 授業準備。
 
 
-## 2025-04-07-SNAPSHOT
+## 2025-04-08
+
+* fail2ban script - fail2ban-client banned, faileban-client unban ip ... があり、
+  それでじゅうぶん対応できそう。そんなコマンド、あった？
+* ip.melt - ぞのさんの調査を反映させた。IA, IB のレンジ。
+* github.com/hkim0331/<project>/.git/config 中の github.com を github-hkim0331 に書き換える。
+
+```
+for i in $(ls */.git/config); do
+  grep github.com $i ; sed -i 's/github.com/github-hkim0331/' $i
+done
+```
+
+* stopped/disabled isc-dhcp-server6
+
+```
+root@hp# systemctl stop isc-dhcp-server6.service
+root@hp# systemctl disable isc-dhcp-server6.service
+
+```
+
+## 2025-04-07
 
 * dhcp15 ufw.
 * apt install postfix dovecot-imapd dovecot-pop3d
+* 授業準備 -  projects/l22/.git/config を書き換えた。
+* updated request-map(ip) - added KIT-IA and KIT-IB.
+* 授業準備 - L22.
 
 ## 2025-04-06
 
@@ -53,11 +77,9 @@
 
     /dev/nvme0n1p2  468G   86G  358G  20% /
 
-
 ### rabbit:/home/* の転送練習。
 
 * rsync-homes.bb - 予想では実行に 1h。-> 1h35mn.
-
 
 ## 2025-04-04
 
