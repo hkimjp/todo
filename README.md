@@ -15,8 +15,13 @@
 * 授業準備。
 
 
+## 2025-04-09-SNAPSHOT
+
+
 ## 2025-04-08
 
+* cntl のメールトラブル - ブラックリスト入りの sender をそのまま .forward に乗せて来て、
+  ブラックリストにはない cntl のメールサーバが mns の fail2ban に捕まった？
 * fail2ban script - fail2ban-client banned, faileban-client unban ip ... があり、
   それでじゅうぶん対応できそう。そんなコマンド、あった？
 * ip.melt - ぞのさんの調査を反映させた。IA, IB のレンジ。
