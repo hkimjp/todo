@@ -13,13 +13,13 @@
 * dovecot
 * base64 デコード。Mac から出したメールをデコード専用スクリプトを作る。
 * (refer-clojure :exclude [read-string]) はどこへ書く？
-
+* komura さんの LDAP データのコピー。LDIF で？
 
 ## 2025-04-05
 
 * ip.melt に favicon.ico
 * babashka で telemere のライブラリエラー。大人しく timbre すれば問題ない。
-* rsync-homes.bb - 2 度目は 3 分くらいで完了した。
+* rsync-homes.bb - 2 度目は 3 分で完了した。
 
     /dev/nvme0n1p2  468G   86G  358G  20% /
 
