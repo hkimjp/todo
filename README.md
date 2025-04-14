@@ -13,9 +13,12 @@
 * raspberry (bind) を収容する。あるいは逆に DHCP と LDAP を吐き出す。
 * iPhone からの ICMP too large
 * 授業準備。
+* restore postgres container
 
 
-## 2025-04-09-SNAPSHOT
+## 2025-04-13
+
+* dump postgresql container
 
 
 ## 2025-04-08
