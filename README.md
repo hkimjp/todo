@@ -6,25 +6,30 @@
 * NextCloud: shared フォルダの使い方。
 * postfix, dovecot のコンフィグをコピーするか。これが最も問題少ないか。
 * rainloop は apache->nginx のため、ひと踏ん張り必要。
-* 踏み台 ssh が 1/2 の割合で失敗する理由。VPN もしばし途中で切れちゃうぞ。大学ネットが怪しい。
+* 踏み台 ssh が 1/2 の割合で失敗する理由。
   rsa キーを有効にするとこの現象は消える。なぜ？
+* VPN も途中で切れちゃうぞ。大学ネット怪しい。
 * dhcp15 を固定 IP に。
 * dhcp29 の IP を固定する。cony の代わりだから 150.69.84.221.
+* ufw
+* fail2ban
 * raspberry (bind) を収容する。あるいは逆に DHCP と LDAP を吐き出す。
 * iPhone からの ICMP too large
-* 授業準備。
 
 
-## 2025-04-09-SNAPSHOT
+## 2025-04-13
 
+* dump container database
+* reset database (py99, typing_ex)
+* restore container database
 
 ## 2025-04-08
 
-* typing-ex 4.31.0. 一旦バージョン番号に v をつけたら、それを続けないとどれが新しいか分かりにくくなるか。
+* typing-ex 4.31.0. 一旦バージョン番号に v をつけたら、それを続けないとどれが新しいか分かりにくくなる。
 * cntl のメールトラブル - ブラックリスト入りの sender をそのまま .forward に乗せて来て、
   ブラックリストにはない cntl のメールサーバが mns の fail2ban に捕まった？
 * fail2ban script - fail2ban-client banned, faileban-client unban ip ... があり、
-  それでじゅうぶん対応できそう。そんなコマンド、あった？
+  それでじゅうぶん対応できそう。そんなオプション、いつからあった？
 * ip.melt - ぞのさんの調査を反映させた。IA, IB のレンジ。
 * github.com/hkim0331/<project>/.git/config 中の github.com を github-hkim0331 に書き換える。
 
