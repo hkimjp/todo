@@ -20,6 +20,14 @@
 
 * dump postgresql container
 
+* L22: 後期の授業、再履修、ギブアップもあるだろう。科目名を分けた。
+  後期の python は python-b になる。
+
+    update users set subj='python-a'
+
+* L22 の pg16 でダンプしたプレーンテキストは m64 の pg17 でリストアできた。
+* typing-ex: スコアをリセット
+* py99: 2024: 回答をリセット。投稿とコメント、ストックのテスト。
 
 ## 2025-04-08
 
