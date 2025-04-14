@@ -15,7 +15,8 @@
 * fail2ban
 * raspberry (bind) を収容する。あるいは逆に DHCP と LDAP を吐き出す。
 * iPhone からの ICMP too large
-
+* 全てを　workspace/ 以下にまとめて、clojure, teaching, projects, etc. は
+  そこへのシンボリックリンクにしたらどうか？
 
 ## 2025-04-13
 
