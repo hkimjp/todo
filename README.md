@@ -12,14 +12,31 @@
 * dhcp29 の IP を固定する。cony の代わりだから 150.69.84.221.
 * raspberry (bind) を収容する。あるいは逆に DHCP と LDAP を吐き出す。
 * iPhone からの ICMP too large
-* 授業準備。
+* 全てを　workspace/ 以下にまとめて、clojure, teaching, projects, etc. は
+  そこへのシンボリックリンクにしたらどうか？
+
+## 2025-04-14-SNAPSHOT
+
+* restore container postgres databases
+  see ~/docker/postgresql@17
 
 
-## 2025-04-09-SNAPSHOT
+## 2025-04-13
 
+* dump postgresql container
+
+* L22: 後期の授業、再履修、ギブアップもあるだろう。科目名を分けた。
+  後期の python は python-b になる。
+
+    update users set subj='python-a'
+
+* L22 の pg16 でダンプしたプレーンテキストは m64 の pg17 でリストアできた。
+* typing-ex: スコアをリセット
+* py99: 2024: 回答をリセット。投稿とコメント、ストックのテスト。
 
 ## 2025-04-08
 
+* typing-ex 4.31.0. 一旦バージョン番号に v をつけたら、それを続けないとどれが新しいか分かりにくくなるか。
 * cntl のメールトラブル - ブラックリスト入りの sender をそのまま .forward に乗せて来て、
   ブラックリストにはない cntl のメールサーバが mns の fail2ban に捕まった？
 * fail2ban script - fail2ban-client banned, faileban-client unban ip ... があり、
@@ -78,7 +95,7 @@ root@hp# systemctl disable isc-dhcp-server6.service
 
 * ip.melt に favicon.ico
 * babashka で telemere のライブラリエラー。大人しく timbre すれば問題ない。
-* rsync-homes.bb - 2 度目は 3 分くらいで完了した。
+* rsync-homes.bb - 2 度目は 3 分で完了した。
 
     /dev/nvme0n1p2  468G   86G  358G  20% /
 
