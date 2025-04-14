@@ -12,8 +12,13 @@
 * dhcp29 の IP を固定する。cony の代わりだから 150.69.84.221.
 * raspberry (bind) を収容する。あるいは逆に DHCP と LDAP を吐き出す。
 * iPhone からの ICMP too large
-* 授業準備。
-* restore postgres container
+* 全てを　workspace/ 以下にまとめて、clojure, teaching, projects, etc. は
+  そこへのシンボリックリンクにしたらどうか？
+
+## 2025-04-14-SNAPSHOT
+
+* restore container postgres databases
+  see ~/docker/postgresql@17
 
 
 ## 2025-04-13
