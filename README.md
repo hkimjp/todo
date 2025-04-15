@@ -15,6 +15,8 @@
 * 全てを　workspace/ 以下にまとめて、clojure, teaching, projects, etc. は
   そこへのシンボリックリンクにしたらどうか？
 
+## 2025-04-15
+
 ## 2025-04-14-SNAPSHOT
 
 * restore container postgres databases
