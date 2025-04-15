@@ -17,6 +17,14 @@
 * iPhone からの ICMP too large
 * 全てを　workspace/ 以下にまとめて、clojure, teaching, projects, etc. は
   そこへのシンボリックリンクにしたらどうか？
+* latex で two columns?
+* 今週の Python で konpy では？
+
+## 2025-04-15
+
+* under construction: umask 077 で brew install basictex すると、
+  一般ユーザが読めない cls 等ができる。
+* jlreq の make でエラー。-H は半角カタカナ
 
 ## 2025-04-13
 
