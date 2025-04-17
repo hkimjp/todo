@@ -17,10 +17,19 @@
 * latex で two columns?
 * 今週の Python で konpy, もしくは kp では？ さらっと作ってみるか。
 * wil: wil 数を表示、注意文の並び
-* typing: 08:40
+
 * mx: member
 
 ## 2025-04-16
+
+* typing: 08:40
+
+    systemctl daemon-reload
+    root@nuc7:/home/ubuntu# systemctl restart typing-ex_roll-call.timer
+
+
+
+
 
 ## 2025-04-15
 
