@@ -8,28 +8,28 @@
 * rainloop は apache->nginx のため、ひと踏ん張り必要。
 * 踏み台 ssh が 1/2 の割合で失敗する理由。
   rsa キーを有効にするとこの現象は消える。なぜ？
+  どこからどこへを記録してないヘマ。どこだった？
 * VPN も途中で切れちゃうぞ。大学ネット怪しい。
 * dhcp15 を固定 IP に。
 * dhcp29 の IP を固定する。cony の代わりだから 150.69.84.221.
 * iPhone からの ICMP too large
-* 全てを　workspace/ 以下にまとめて、clojure, teaching, projects, etc. は
-  そこへのシンボリックリンクにしたらどうか？
-* latex で two columns?
 * 今週の Python で konpy, もしくは kp では？ さらっと作ってみるか。
-* wil: wil 数を表示、注意文の並び
+* GITHUB で public にしといて umask 077 はバランス悪いか？
 
-* mx: member
+
+## 2025-04-17
+
+* mx bug: クラス中のランダムな数人に
+* mx: メッセージを保持する時間
+
 
 ## 2025-04-16
 
+* wil: wil 数を表示、注意文の並び
 * typing: 08:40
 
     systemctl daemon-reload
     root@nuc7:/home/ubuntu# systemctl restart typing-ex_roll-call.timer
-
-
-
-
 
 ## 2025-04-15
 
