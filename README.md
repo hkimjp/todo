@@ -16,14 +16,17 @@
 * 今週の Python で konpy, もしくは kp では？ さらっと作ってみるか。
 * GITHUB で public にしといて umask 077 はバランス悪いか？
 * python-a the 3rd week.
-* micro-x の再設計
 * CLJS-REPL
-* revive scratch
+* revive `scratch`
+* wil の dev container がエラー。
 
 
 ## 2024-04-18
 
 * WIL 2.23.4: react 17 -> 18.
+* migrated microx from github/hkim0331 to github/hkimjp.
+  master branch is `main`.
+* 再設計 micro-x. users をスタート時に取得し、使い回す(under construction)。
 
 ## 2025-04-17
 
