@@ -15,13 +15,20 @@
 * iPhone からの ICMP too large
 * 今週の Python で konpy, もしくは kp では？ さらっと作ってみるか。
 * GITHUB で public にしといて umask 077 はバランス悪いか？
+* python-a the 3rd week.
+* micro-x の再設計
+* CLJS-REPL
+* revive scratch
 
+
+## 2024-04-18
+
+* WIL 2.23.4: react 17 -> 18.
 
 ## 2025-04-17
 
-* mx bug: クラス中のランダムな数人に
-* mx: メッセージを保持する時間
-
+* (not done) mx bug: クラス中のランダムな数人に
+* (not done) mx: メッセージを保持する時間
 
 ## 2025-04-16
 
