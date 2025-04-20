@@ -14,12 +14,18 @@
 * dhcp29 の IP を固定する。cony の代わりだから 150.69.84.221.
 * iPhone からの ICMP too large
 * 今週の Python で konpy, もしくは kp では？ さらっと作ってみるか。
-* GITHUB で public にしといて umask 077 はバランス悪いか？
+* GITHUB で public にしといて umask 077 はバランス悪い。
 * python-a the 3rd week.
 * CLJS-REPL
 * revive `scratch`
 * wil の dev container がエラー。
 
+
+## 2024-04-19
+
+* ns.tobata.isc.kyutech.ac.jp がおかしい。セカンダリネームサーバをやめたんだっか？
+  melt と mns の named からセカンダリの定義を外した。
+* hkimjp/util 0.3.0. - datalog 学び直さないと。:db/id と :db/add の役目。
 
 ## 2024-04-18
 
