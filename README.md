@@ -14,12 +14,16 @@
 * dhcp29 の IP を固定する。cony の代わりだから 150.69.84.221.
 * iPhone からの ICMP too large
 * 今週の Python で konpy, もしくは kp では？ さらっと作ってみるか。
-* GITHUB で public にしといて umask 077 はバランス悪い。
 * python-a the 3rd week.
 * CLJS-REPL
 * revive `scratch`
 * wil の dev container がエラー。
 
+
+## 2024-04-21
+
+* alter-var-root で inline def を回避した。
+* umask 022, m64.
 
 ## 2024-04-19
 
