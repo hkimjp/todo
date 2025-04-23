@@ -19,19 +19,22 @@
 * revive `scratch`
 * wil の dev container がエラー。
 
+## 2025-04-23
 
-## 2024-04-21
+* 痛恨！ OrbStack がまた消えた。本件、今年になって 3 度目。原因はなんだろう？
+
+## 2025-04-21
 
 * alter-var-root で inline def を回避した。
 * umask 022, m64.
 
-## 2024-04-19
+## 2025-04-19
 
 * ns.tobata.isc.kyutech.ac.jp がおかしい。セカンダリネームサーバをやめたんだっか？
   melt と mns の named からセカンダリの定義を外した。
 * hkimjp/util 0.3.0. - datalog 学び直さないと。:db/id と :db/add の役目。
 
-## 2024-04-18
+## 2025-04-18
 
 * WIL 2.23.4: react 17 -> 18.
 * migrated microx from github/hkim0331 to github/hkimjp.
