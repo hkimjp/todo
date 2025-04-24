@@ -22,6 +22,9 @@
 ## 2025-04-23
 
 * 痛恨！ OrbStack がまた消えた。本件、今年になって 3 度目。原因はなんだろう？
+* com.apple.LaunchServicesTemplateApp.dv
+
+  https://forums.macrumors.com/threads/is-com-apple-launchservicestemplateapp-dv-still-an-issue.2435843/
 
 ## 2025-04-21
 
