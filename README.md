@@ -18,12 +18,15 @@
 * CLJS-REPL
 * revive `scratch`
 * wil の dev container がエラー。
+* Windows, WSL で gh. gh auth login から先、全部。
 
+
+## 2024-04-23
 
 ## 2024-04-21
 
-* alter-var-root で inline def を回避した。
-* umask 022, m64.
+* micro-x: alter-var-root で inline def を回避した。
+* umask 022 に戻そう。
 
 ## 2024-04-19
 
