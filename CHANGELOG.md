@@ -2,7 +2,7 @@
 
 By its nature, this CHANGELOG.md should be in README.md.
 
-## 0.4.17-SNAPSHOT (2025-04-17)
+## 0.4.17 (2025-05-08)
 
 ## 0.4.0 (2025-04-06)
 
