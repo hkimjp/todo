@@ -14,11 +14,16 @@
 * dhcp29 の IP を固定する。cony の代わりだから 150.69.84.221.
 * iPhone からの ICMP too large
 * 今週の Python で konpy, もしくは kp では？ さらっと作ってみるか。
-* python-a the 3rd week.
 * CLJS-REPL
 * revive `scratch`
 * wil の dev container がエラー。
 * Windows, WSL で gh. gh auth login から先、全部。
+
+## 2025-05-08
+
+- python the 5th week.
+- konpy version up.
+-
 
 ## 2025-04-23
 
