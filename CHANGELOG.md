@@ -1,5 +1,8 @@
 ## Unreleased
 
+By its nature, this CHANGELOG.md should be in README.md.
+
+## 0.4.17 (2025-05-08)
 
 ## 0.4.0 (2025-04-06)
 
@@ -10,6 +13,7 @@
 
 ## 0.3.0 (2025-04-05)
 
+* improve micro-x -
 * (re)try vivaldi.
 
 ## 0.2.1 (2025-04-02)
