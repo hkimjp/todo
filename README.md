@@ -12,18 +12,28 @@
 * VPN も途中で切れちゃうぞ。大学ネット怪しい。
 * dhcp15 を固定 IP に。
 * dhcp29 の IP を固定する。cony の代わりだから 150.69.84.221.
-* iPhone からの ICMP too large
-* 今週の Python で konpy, もしくは kp では？ さらっと作ってみるか。
+* iPhone からの ICMP too large をYAMAHA で無視する。
 * CLJS-REPL
-* revive `scratch`
+* revive `scratch`. git いる？
 * wil の dev container がエラー。
-* Windows, WSL で gh. gh auth login から先、全部。
+* Windows, WSL で gh. gh auth login から先、全部。ansible 入れて dotfile から？
+* tagged literal
+* docker ipforward vs. ufw
+
+
+## 2025-05-10
+
+- docker redis:7
+- remove-python-comments.clj
+- tagged-literal.clj
+- /api/typing/:login/:date
+- /api/wil/:login/:date
 
 ## 2025-05-08
 
 - python the 5th week.
 - konpy version up.
--
+- VScode 1.100.0
 
 ## 2025-04-23
 
