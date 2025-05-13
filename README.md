@@ -29,7 +29,9 @@
 
 ## 2025-05-13
 
+- windows PowerShell 7.5.1
 - iOS の ICMP too large は止まったか？
+- docker scipy-notebook
 
 ## 2025-05-11
 
