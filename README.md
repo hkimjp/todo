@@ -17,9 +17,25 @@
 * revive `scratch`. git いる？
 * wil の dev container がエラー。
 * Windows, WSL で gh. gh auth login から先、全部。ansible 入れて dotfile から？
-* tagged literal
+  大人しく git https:// するか。
+* clojure reader tagged literal
 * docker ipforward vs. ufw
+* random SVO generator.
+* ipython on vscode.
+* 型チェック
+* my-dockers(m4から始めるか)
+* konpy: インスタントメッセージ。redis で expire つければどうか？
 
+
+## 2025-05-13
+
+- iOS の ICMP too large は止まったか？
+
+## 2025-05-11
+
+- konpy:/admin/gc
+- ssh://git@git.melt.kyutech.ac.jp/git/2025-python-a.git
+- quay.io/jupyter/scipy-notebook:2025-03-14
 
 ## 2025-05-10
 
