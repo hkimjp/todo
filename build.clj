@@ -3,7 +3,7 @@
   (:require [clojure.tools.build.api :as b]))
 
 (def lib 'net.clojars.hkimjp/todo)
-(def version "0.5.8")
+(def version "0.5.12")
 (def main 'hkimjp.todo)
 (def class-dir "target/classes")
 
