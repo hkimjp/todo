@@ -27,6 +27,9 @@
 * konpy: インスタントメッセージ。redis で expire つければどうか？
 
 
+## 2025-05-14
+
+
 ## 2025-05-13
 
 - windows PowerShell 7.5.1
