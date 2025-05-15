@@ -21,10 +21,12 @@
 * clojure reader tagged literal
 * docker ipforward vs. ufw
 * random SVO generator.
-* ipython on vscode.
 * 型チェック
 * my-dockers(m4から始めるか)
 * konpy: インスタントメッセージ。redis で expire つければどうか？
+
+
+## SNAPSHOT
 
 
 ## 2025-05-13
