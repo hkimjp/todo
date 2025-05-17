@@ -12,7 +12,6 @@
 * VPN も途中で切れちゃうぞ。大学ネット怪しい。
 * dhcp15 を固定 IP に。
 * dhcp29 の IP を固定する。cony の代わりだから 150.69.84.221.
-* iPhone からの ICMP too large をYAMAHA で無視する。
 * CLJS-REPL
 * revive `scratch`. git いる？
 * wil の dev container がエラー。
@@ -21,13 +20,23 @@
 * clojure reader tagged literal
 * docker ipforward vs. ufw
 * random SVO generator.
-* 型チェック
+* Python の型チェック
 * my-dockers(m4から始めるか)
 * konpy: インスタントメッセージ。redis で expire つければどうか？
+* git でバイナリ（たとえば pages）がブランチ間でコンフリクトしたら？
+  --theres や --ours しかないだろうな。だったらバイナリの管理は全部 git-lfs できないの？
+* wil - /last/:login はどうか。CORS がなあ。postgres にちょくせつクエリするか。
+* clojurescript
 
+## 2025-05-17
 
-## SNAPSHOT
+- 九州工大シニアアカデミー講演準備
 
+## 2025-05-16
+
+- moved hkim0331/wil to hkimjp/wil.
+- iPhone からの ICMP too large が YAMAHA で記録されなくなった。
+  iOS がバージョンアップしたか？
 
 ## 2025-05-13
 
