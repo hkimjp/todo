@@ -26,8 +26,9 @@
 * konpy: インスタントメッセージ。redis で expire つければどうか？
 
 
-## SNAPSHOT
+## 2025-05-15-SNAPSHOT
 
+- tailwindcss 4.1.6
 
 ## 2025-05-13
 
