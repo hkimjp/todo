@@ -20,13 +20,32 @@
 * clojure reader tagged literal
 * docker ipforward vs. ufw
 * random SVO generator.
-* Python の型チェック
+* Python type check.
 * my-dockers(m4から始めるか)
-* konpy: インスタントメッセージ。redis で expire つければどうか？
+* konpy: instant messages。use redis?
+  can use with typing-ex.
 * git でバイナリ（たとえば pages）がブランチ間でコンフリクトしたら？
   --theres や --ours しかないだろうな。だったらバイナリの管理は全部 git-lfs できないの？
-* wil - /last/:login はどうか。CORS がなあ。postgres にちょくせつクエリするか。
 * clojurescript
+* 授業時間は WIL を書けない。
+* konpy 問題切り替えタイミング。授業終わり時間に合わせられないか？
+
+* konpy: display question numbers he/she answered.
+* wil に時間制限
+
+
+## 2025-05-20
+
+- konpy - browse all answers from admin page.
+- org.slf4j/slf4j-nop {:mvn/version "2.0.17"}
+- wil - at least 10 lines.
+- wil - /last/:login はどうか。CORS がなあ。postgres にちょくせつクエリするか。
+
+## 2025-05-19
+
+- python-2025-05-21
+- konpy: display his/her typing score.
+- konpy: this week's assgignments.
 
 ## 2025-05-17
 
