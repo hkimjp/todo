@@ -13,11 +13,11 @@
 * dhcp15 を固定 IP に。
 * dhcp29 の IP を固定する。cony の代わりだから 150.69.84.221.
 * CLJS-REPL
-* revive `scratch`. git いる？
+* revive `scratch`. git いる？ - ~/clojure が　scratch みたいなもんだ。
 * wil の dev container がエラー。
 * Windows, WSL で gh. gh auth login から先、全部。ansible 入れて dotfile から？
   大人しく git https:// するか。
-* clojure reader tagged literal
+* clojure reader - tagged literal
 * docker ipforward vs. ufw
 * random SVO generator.
 * Python type check.
@@ -29,10 +29,13 @@
 * clojurescript
 * 授業時間は WIL を書けない。
 * konpy 問題切り替えタイミング。授業終わり時間に合わせられないか？
-
 * konpy: display question numbers he/she answered.
 * wil に時間制限
 
+
+## 2025-05-25
+
+- typing-ex, average の他に練習回数
 
 ## 2025-05-20
 
