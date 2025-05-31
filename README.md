@@ -10,14 +10,14 @@
   rsa キーを有効にするとこの現象は消える。なぜ？
   どこからどこへを記録してないヘマ。どこだった？
 * VPN も途中で切れちゃうぞ。大学ネット怪しい。
-* dhcp15 を固定 IP に。
+* dhcp15 を固定 IP に。rabbit の代わりだから幾つだ？
 * dhcp29 の IP を固定する。cony の代わりだから 150.69.84.221.
 * CLJS-REPL
-* revive `scratch`. git いる？
+* revive `scratch`. git いる？ - ~/clojure が scratch みたいなもんだ。
 * wil の dev container がエラー。
 * Windows, WSL で gh. gh auth login から先、全部。ansible 入れて dotfile から？
   大人しく git https:// するか。
-* clojure reader tagged literal
+* clojure reader - tagged literal
 * docker ipforward vs. ufw
 * random SVO generator.
 * Python type check.
@@ -26,13 +26,18 @@
   can use with typing-ex.
 * git でバイナリ（たとえば pages）がブランチ間でコンフリクトしたら？
   --theres や --ours しかないだろうな。だったらバイナリの管理は全部 git-lfs できないの？
-* clojurescript
-* 授業時間は WIL を書けない。
+* clojurescript, clojurescript REPL.
+* 授業時間は WIL を書けないように。
 * konpy 問題切り替えタイミング。授業終わり時間に合わせられないか？
-
 * konpy: display question numbers he/she answered.
 * wil に時間制限
 
+
+## 2025-06-01
+
+## 2025-05-25
+
+- typing-ex, average の他に練習回数
 
 ## 2025-05-20
 
