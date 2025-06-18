@@ -10,26 +10,59 @@
   rsa キーを有効にするとこの現象は消える。なぜ？
   どこからどこへを記録してないヘマ。どこだった？
 * VPN も途中で切れちゃうぞ。大学ネット怪しい。
-* dhcp15 を固定 IP に。
+* dhcp15 を固定 IP に。rabbit の代わりだから幾つだ？
 * dhcp29 の IP を固定する。cony の代わりだから 150.69.84.221.
-* iPhone からの ICMP too large をYAMAHA で無視する。
 * CLJS-REPL
-* revive `scratch`. git いる？
+* revive `scratch`. git いる？ - ~/clojure が scratch みたいなもんだ。
 * wil の dev container がエラー。
 * Windows, WSL で gh. gh auth login から先、全部。ansible 入れて dotfile から？
   大人しく git https:// するか。
-* clojure reader tagged literal
+* clojure reader - tagged literal
 * docker ipforward vs. ufw
 * random SVO generator.
-* 型チェック
+* Python type check.
 * my-dockers(m4から始めるか)
-* konpy: インスタントメッセージ。redis で expire つければどうか？
+* konpy: instant messages。use redis?
+  can use with typing-ex.
+* git でバイナリ（たとえば pages）がブランチ間でコンフリクトしたら？
+  --theres や --ours しかないだろうな。だったらバイナリの管理は全部 git-lfs できないの？
+* clojurescript, clojurescript REPL.
+* 授業時間は WIL を書けないように。
+* konpy 問題切り替えタイミング。授業終わり時間に合わせられないか？
+* konpy: display question numbers he/she answered.
+* wil に時間制限
 
 
-## SNAPSHOT
+## 2025-06-01
 
 * konpy - GET /typing_ex/:login/last
 * konpy - GET /typing_ex/:login/average
+## 2025-05-25
+
+- typing-ex, average の他に練習回数
+
+## 2025-05-20
+
+- konpy - browse all answers from admin page.
+- org.slf4j/slf4j-nop {:mvn/version "2.0.17"}
+- wil - at least 10 lines.
+- wil - /last/:login はどうか。CORS がなあ。postgres にちょくせつクエリするか。
+
+## 2025-05-19
+
+- python-2025-05-21
+- konpy: display his/her typing score.
+- konpy: this week's assgignments.
+
+## 2025-05-17
+
+- 九州工大シニアアカデミー講演準備
+
+## 2025-05-16
+
+- moved hkim0331/wil to hkimjp/wil.
+- iPhone からの ICMP too large が YAMAHA で記録されなくなった。
+  iOS がバージョンアップしたか？
 
 ## 2025-05-13
 
