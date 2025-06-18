@@ -28,6 +28,8 @@
 
 ## SNAPSHOT
 
+* konpy - GET /typing_ex/:login/last
+* konpy - GET /typing_ex/:login/average
 
 ## 2025-05-13
 
